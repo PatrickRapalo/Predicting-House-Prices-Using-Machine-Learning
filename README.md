@@ -14,4 +14,14 @@ I will use python libraries such as pandas and seaborn for models and visualizat
 Could also use R for visualizations.
 
 
+#### STRUCTURE ####
 
+house_price_prediction/
+│── data_preprocessing.py  # Data cleaning and transformation
+│── train_model.py         # Train and evaluate the model
+│── predict.py             # Make predictions using the trained model
+│── utils.py               # Helper functions (optional)
+│── main.py                # Runs the complete pipeline
+│── requirements.txt       # Dependencies list
+│── model.pkl              # Saved trained model
+│── data/                  # (Optional) Stores datasets
